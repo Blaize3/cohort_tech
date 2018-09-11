@@ -1,0 +1,21 @@
+/*
+
+    All Fonts element variables used on this projects are managed on this file
+
+*/
+
+// font
+$font-stack: sans-serif;
+
+// font weight
+$font-light: 300;
+$font-normal: 400;
+$font-bold: 700;
+$font-black: 900;
+
+// font mixins
+@mixin font($family: $font-stack, $weight: $font-normal) {
+    font-family: $family;
+    font-weight: $weight; 
+}
+
